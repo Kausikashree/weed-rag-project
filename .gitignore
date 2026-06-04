@@ -2,4 +2,7 @@
 .env
 __pycache__/
 chroma_db_ui/
+chroma_db/
 *.pyc
+frontend/node_modules/
+frontend/dist/

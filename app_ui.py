@@ -8,6 +8,7 @@ from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_chroma import Chroma
 from langchain_core.prompts import PromptTemplate
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
+
 # -------------------------------------------------
 # Basic setup
 # -------------------------------------------------
@@ -25,8 +26,6 @@ st.set_page_config(page_title="Weed RAG Chat", layout="wide")
 # -------------------------------------------------
 # Generic helper functions
 # -------------------------------------------------
-
-
 
 def clean_text(text):
     text = text.lower()

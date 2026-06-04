@@ -6,3 +6,6 @@ langchain-chroma
 chromadb
 python-dotenv
 pypdf
+fastapi
+uvicorn[standard]
+scikit-learn

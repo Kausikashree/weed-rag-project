@@ -15,7 +15,8 @@ An AI-powered Weed Knowledge Assistant built using Retrieval-Augmented Generatio
 ## Tech Stack
 
 * Python
-* Streamlit
+* React JS
+* Fastapi
 * OpenAI
 * LangChain
 * ChromaDB
